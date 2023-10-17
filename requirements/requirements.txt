@@ -1,0 +1,16 @@
+--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.6.3/constraints-3.10.txt"
+
+apache-airflow-providers-snowflake==4.2.0
+apache-airflow-providers-mysql==5.1.1
+apache-airflow[package-extra]==2.6.3
+apache-airflow-providers-postgres[amazon]
+apache-airflow-providers-cncf-kubernetes
+apache-airflow[python]==2.6.3
+psycopg2
+fsspec
+s3fs
+pandas
+sagemaker==v1.72
+dag-factory==0.7.2
+virtualenv==20.23.1
+
